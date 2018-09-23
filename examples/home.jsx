@@ -230,7 +230,7 @@ const home = props => {
                     "Svalbard and Jan Mayen",
                     "Anguilla",
                     "American Samoa",
-                    "Norfolk Island"]}>
+                    "Norfolk Island"]} fundingChoices={["UN", "Government", "Joint"]}>
                 </Form>
             </p>
             </div>

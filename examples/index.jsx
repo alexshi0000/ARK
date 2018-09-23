@@ -12,7 +12,7 @@ class App extends React.Component {
 				<div className="App">
 					<Switch>
 						<Route path="/" exact render={(props) => <Home />} />
-						<Route path="/map" exact render={(props) => <ArcsExample />} />
+						<Route path="/map/:country" exact render={(props) => <ArcsExample {...props}/>} />
 					</Switch>
 				</div>
 			</Router>

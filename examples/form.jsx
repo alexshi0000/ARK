@@ -1,14 +1,11 @@
 import React from 'react';
 import Select from './select';
-import {Link} from 'react-router-dom';
 
 const form = props => {
     return (
         <form>
-            <Select options={props.options}></Select>
-            <Link to="/map">
-                <input type="submit" value="Submit" className="button" />
-            </Link>
+            <Select options={props.options} placeholder="Select a country" id={"country"} />
+            <Select options={props.fundingChoices} placeholder="Select funding" id={"fundingChoices"} />
         </form>
     )
 }
