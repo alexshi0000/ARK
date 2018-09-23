@@ -12,14 +12,38 @@ class ArcsExample extends React.Component {
 
 		const country = this.props.match.params.country;
 		console.log(country);
-		this.state.arcList = []
-		for (let i = 0; i < 3; ++i) {
-			let lat = Math.random() * 85
-			let long = Math.random() * 180
-			let lat2 = Math.random() * -85
-			let long2 = Math.random() * -180
-			this.state.arcList.push({origin: {latitude: lat, longitude: long}, destination: {latitude: lat2, longitude: long2}})
-		}
+		this.state.arcList = [
+			{
+				origin: {
+					latitude: 6.8770,
+					longitude: 31.3
+				},
+				destination: {
+					latitude: 37.09,
+					longitude: 95.71
+				}
+			},
+			{
+				origin: {
+					latitude: 6.8770,
+					longitude: 31.3
+				},
+				destination: {
+					latitude: 38.9,
+					longitude: 35.24
+				}
+			},
+			{
+				origin: {
+					latitude: 6.8770,
+					longitude: 31.3
+				},
+				destination: {
+					latitude: -25.27,
+					longitude: 133.77
+				}
+			},
+		]
 		if (this.state.arcList === null) {
 			return <div>Hello World</div>
 		}
@@ -35,7 +59,7 @@ class ArcsExample extends React.Component {
 					// }}
 					arc={this.state.arcList}
 					arcOptions={{
-						strokeWidth: 1,
+						strokeWidth: 3,
 						arcSharpness: 1.4
 					}}
 				/>
