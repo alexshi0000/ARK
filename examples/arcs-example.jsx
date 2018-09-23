@@ -2,7 +2,7 @@ import React from 'react';
 import Datamap from '../src';
 import Example from './example';
 
-export default class ArcsExample extends React.Component {
+class ArcsExample extends React.Component {
 
 	render() {
 		return (
@@ -83,3 +83,5 @@ export default class ArcsExample extends React.Component {
 	}
 
 }
+
+export default ArcsExample;

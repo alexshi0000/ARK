@@ -1,21 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route } from 'react-router';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import ArcsExample from './arcs-example';
+import Home from "./home";
 
 class App extends React.Component {
 
 	render() {
 		return (
-			// <Router>
+			<Router>
 				<div className="App">
-					{/* <Route path="/" component={ArcsExample} /> */}
-					<ArcsExample />
+					<Switch>
+						<Route path="/" exact render={(props) => <Home />} />
+						<Route path="/map" exact render={(props) => <ArcsExample />} />
+					</Switch>
 				</div>
-			// </Router>
+			</Router>
 		);
 	}
 }
+
+export default App;
 
 ReactDOM.render(
 	<App />,

@@ -1,0 +1,60 @@
+#app {
+    font-size: 10pt;
+    color: #444;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("background.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(255,255,255,0.7);
+}
+
+.bottombar {
+    position: fixed;
+    height: 20px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #09f;
+}
+
+.center {
+    width: 50%;
+    height: 50%;
+    position:absolute;
+    left:0; right:0;
+    top:0; bottom:0;
+    margin:auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.3rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.button {
+    font-size: 1.1rem;
+    background-color: #09f;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    padding: 12px;
+    margin: 20px;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.button:hover {
+    background-color: #059;
+    transition: all 0.5s;
+}
