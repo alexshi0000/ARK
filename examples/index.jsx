@@ -12,7 +12,11 @@ class App extends React.Component {
 				<div className="App">
 					<Switch>
 						<Route path="/" exact render={(props) => <Home />} />
-						<Route path="/map/:country" exact render={(props) => <ArcsExample {...props}/>} />
+						<Route path="/map/:country" exact render={(props) => 
+						<div className="App">
+							<ArcsExample {...props}/>
+							<img src="logo.png" style={{position: "absolute", bottom: "0", height: "100px", width: "100px", margin: "5%"}}/>
+						</div>} />
 					</Switch>
 				</div>
 			</Router>
