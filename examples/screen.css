@@ -1,0 +1,75 @@
+html {
+	box-sizing: border-box;
+	background-color: #000;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+html,
+body,
+#app {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font: 16px sans-serif;
+}
+
+.Example {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.Example-map {
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+}
+
+.hoverinfo {
+	padding: 4px;
+	border-radius: 1px;
+	background-color: #fff;
+	box-shadow: 1px 1px 5px #ccc;
+	font-size: 12px;
+	border: 1px solid #ccc;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+.ResponsiveExample {
+	width: 405px;
+	height: 270px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	.ResponsiveExample {
+		width: 570px;
+		height: 380px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	.ResponsiveExample {
+		width: 660px;
+		height: 440px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	.ResponsiveExample {
+		width: 750px;
+		height: 500px;
+	}	
+ }
