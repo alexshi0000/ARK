@@ -4,7 +4,7 @@ Project for YorkUHacks 2018. Predicting humanitarian aid efforts using machine l
 ## Our Goals
 - Create and realize a platform capable of prediting future migrant flow
 - Better utilize existing infrastructure and resources for aid
-- Empower those who are displaced from their homes
+- Empower those who are displaced
 - Develop a brighter future by deploying technologies in areas where traditional infrastructure may fail
 
 ## How we did it
