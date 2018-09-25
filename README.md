@@ -5,7 +5,7 @@ Project for YorkUHacks 2018. Predicting humanitarian aid efforts using machine l
 - Create and realize a platform capable of prediting future migrant flow
 - Better utilize existing infrastructure and resources for aid
 - Empower those who are displaced from their homes
-- Develop a brighter future using technology in areas where traditional infrastructure may fail, but tech exists
+- Develop a brighter future by deploying technologies in areas where traditional infrastructure may fail
 
 ## How we did it
 React ui/ux with nodejs backend. Jupyter notebooks and random forests. Yummy tech.
