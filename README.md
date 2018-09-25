@@ -9,7 +9,7 @@ Project for YorkUHacks 2018. Predicting humanitarian aid efforts using machine l
 
 ## How we did it
 React ui/ux with nodejs backend. Jupyter notebooks and random forests. Yummy tech
-Dataset: https://www.kaggle.com/unitednations/refugee-data
+<br>Dataset: https://www.kaggle.com/unitednations/refugee-data
 
 ## Demonstration
 ![Alt Text](https://github.com/alexshi0000/YorkUHacks/blob/master/preview.gif)
