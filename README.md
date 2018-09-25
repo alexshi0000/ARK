@@ -8,7 +8,7 @@ Project for YorkUHacks 2018. Predicting humanitarian aid efforts using machine l
 - Develop a brighter future by deploying technologies in areas where traditional infrastructure may fail
 
 ## How we did it
-React ui/ux with nodejs backend. Jupyter notebooks and random forests. Yummy tech.
+React ui/ux with nodejs backend. Jupyter notebooks and ensemble regression algorithms. Yummy tech.
 <br>Dataset: https://www.kaggle.com/unitednations/refugee-data
 
 ## Demonstration
