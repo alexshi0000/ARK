@@ -1,4 +1,4 @@
-# YorkUHacks
+# ARK
 Project for YorkUHacks 2018. Predicting humanitarian aid efforts using machine learning in real time
 
 ## Our Goals
