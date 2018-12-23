@@ -1,0 +1,28 @@
+afghan
+    iran 0.93
+    pakistan 0.053
+    uzbekistan 0.012
+
+Sudan
+    iran 0.3
+    Haiti 0.31
+    Solomon islands 0.28
+    Madagascar 0.209
+
+Syria
+    iraq 0.82
+    haiti 0.07
+    Madagascar 0.05
+
+Yemen
+    Haiti 0.3
+    Solomon islands 0.26
+    iraq 0.237
+    madagascar 0.2
+
+Somolia
+    Eritrea 0.75
+    Haiti 0.095
+    Solomon islands 0.084
+    madagascar 0.06
+    laos 0.08
